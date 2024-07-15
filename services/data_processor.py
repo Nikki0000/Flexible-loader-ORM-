@@ -8,7 +8,7 @@ class DataProcessor:
         self.engine = engine
         self.logger = Logger()
 
-    def insert_data(self, questionnaire_name, visit_type, header_and_question_df):
+    def insert_data(self, questionnaire_name, visit_types, header_and_question_df):
         Session = sessionmaker(bind=self.engine)
         session = Session()
 
@@ -20,11 +20,15 @@ class DataProcessor:
 
             self.logger.log_to_file(f"Added Questionnaire: {questionnaire.Name}")
 
-            task_type = QuestionnaireToTaskType(QuestionnaireId=int(questionnaire.Id), TaskTypeId=int(visit_type), CreatedOn=datetime.utcnow(), ModifiedOn=datetime.utcnow(), Order=0)
-            session.add(task_type)
-            session.commit()
+            # task_type = QuestionnaireToTaskType(QuestionnaireId=int(questionnaire.Id), TaskTypeId=int(visit_type), CreatedOn=datetime.utcnow(), ModifiedOn=datetime.utcnow(), Order=0)
+            # session.add(task_type)
+            # session.commit()
 
-
+            for order, visit_type in enumerate(visit_types):
+                task_type = QuestionnaireToTaskType(QuestionnaireId=int(questionnaire.Id), TaskTypeId=int(visit_type), CreatedOn=datetime.utcnow(), ModifiedOn=datetime.utcnow(), Order=order)
+                session.add(task_type)
+                session.commit()
+                self.logger.log_to_file(f"Added QuestionnaireToTaskType: QuestionnaireId={questionnaire.Id}, TaskTypeId={visit_type}, Order={order}")
 
             # добавляем хэдер и вопросы
             # headers = {}

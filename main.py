@@ -10,10 +10,10 @@ def main():
     Base.metadata.create_all(engine)
 
     data_loader = DataLoader(file_path)
-    questionnaire_name, visit_type, header_and_question_df = data_loader.load_data()
+    questionnaire_name, visit_types, header_and_question_df = data_loader.load_data()
 
     data_processor = DataProcessor(engine)
-    data_processor.insert_data(questionnaire_name, visit_type, header_and_question_df)
+    data_processor.insert_data(questionnaire_name, visit_types, header_and_question_df)
 
 if __name__ == '__main__':
     main()

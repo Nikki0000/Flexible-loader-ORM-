@@ -15,7 +15,7 @@ class DataLoader:
             # print(questionnaire_df.shape)
 
             questionnaire_name = questionnaire_df.iloc[0, 0]
-            visit_type = questionnaire_df.iloc[0, 1]
+            visit_type = [vt.strip() for vt in questionnaire_df.iloc[0, 1].split(',')]
 
             #Читаем лист QuestionAndHeader
             header_and_question_df = pd.read_excel(self.file_path, sheet_name='HeaderAndQuestion')
