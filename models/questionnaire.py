@@ -13,3 +13,5 @@ class Questionnaire(Base):
     questions = relationship("Question", back_populates="questionnaire")
 
     task_types = relationship("QuestionnaireToTaskType", back_populates="questionnaire")
+
+    specializations = relationship("QuestionnaireToTaskTypeSpecialization", back_populates="questionnaire")

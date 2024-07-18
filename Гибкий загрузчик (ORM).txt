@@ -37,6 +37,12 @@
 
 
 Таблицы опросника:
+1. Анкета Обычная: на ДВ (нужно добавлять QuestionnaireToCustomType если включенны групповые визиты)
+		   по специализации
+	Должны быть разные шаблоны, но одинаковый загрузчик
+	Таблицы: Questionnaire, QuestionHeader, Question, QuestionConfiguration, QuestionAnswer (по необходимости), QuestionnaireToTaskType, QuestionnaireToTaskTypeSpecialization
+
+
 Questionnaire
 QuestionHeader
 Question

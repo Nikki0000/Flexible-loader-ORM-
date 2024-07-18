@@ -14,3 +14,5 @@ class QuestionnaireToTaskType(Base):
     Order = Column(Integer, nullable=False)
 
     questionnaire = relationship("Questionnaire", back_populates="task_types")
+
+    specializations = relationship("QuestionnaireToTaskTypeSpecialization", back_populates="task_types")

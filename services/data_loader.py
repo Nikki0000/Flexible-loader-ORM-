@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 class DataLoader:
     def __init__(self, file_path):
         self.file_path = file_path
@@ -15,7 +16,9 @@ class DataLoader:
             # print(questionnaire_df.shape)
 
             questionnaire_name = questionnaire_df.iloc[0, 0]
-            visit_type = [vt.strip() for vt in questionnaire_df.iloc[0, 1].split(',')]
+            # visit_type = [vt.strip() for vt in questionnaire_df.iloc[0, 1].split(',')]
+            visit_types = questionnaire_df.iloc[0, 1]
+            specializations = questionnaire_df.iloc[0, 2] if len(questionnaire_df.columns) > 2 else None
 
             #Читаем лист QuestionAndHeader
             header_and_question_df = pd.read_excel(self.file_path, sheet_name='HeaderAndQuestion')
@@ -23,7 +26,7 @@ class DataLoader:
             if header_and_question_df.empty:
                     raise ValueError("Недостаточно данных в листе 'HeaderAndQuestion'")
 
-            return questionnaire_name, visit_type, header_and_question_df
+            return questionnaire_name, visit_types, specializations, header_and_question_df
         except Exception as e:
             print(f"Ошибка при загрузке данных: {e}")
             raise

@@ -1,14 +1,15 @@
 from sqlalchemy.orm import sessionmaker
-from models import Questionnaire, QuestionnaireHeader, Question, QuestionConfiguration, QuestionAnswer, QuestionnaireToTaskType
+from models import Questionnaire, QuestionnaireHeader, Question, QuestionConfiguration, QuestionAnswer, QuestionnaireToTaskType, QuestionnaireToTaskTypeSpecialization
 from logger import Logger
 from datetime import datetime
+import re
 
 class DataProcessor:
     def __init__(self, engine):
         self.engine = engine
         self.logger = Logger()
 
-    def insert_data(self, questionnaire_name, visit_types, header_and_question_df):
+    def insert_data(self, questionnaire_name, visit_types, specializations, header_and_question_df):
         Session = sessionmaker(bind=self.engine)
         session = Session()
 
@@ -23,12 +24,51 @@ class DataProcessor:
             # task_type = QuestionnaireToTaskType(QuestionnaireId=int(questionnaire.Id), TaskTypeId=int(visit_type), CreatedOn=datetime.utcnow(), ModifiedOn=datetime.utcnow(), Order=0)
             # session.add(task_type)
             # session.commit()
+            # print(visit_types)
+            visit_types = str(visit_types)
+            visit_types = re.sub(r'\s+', '', visit_types)
+            visit_types = visit_types.split(',')
+            visit_types = list(map(int, visit_types))
 
-            for order, visit_type in enumerate(visit_types):
-                task_type = QuestionnaireToTaskType(QuestionnaireId=int(questionnaire.Id), TaskTypeId=int(visit_type), CreatedOn=datetime.utcnow(), ModifiedOn=datetime.utcnow(), Order=order)
+            # if isinstance(visit_types, str):
+            #     visit_types = visit_types.split(',')
+            # elif isinstance(visit_types, (int, float)):
+            #     visit_types = [visit_types]
+            # elif isinstance(visit_types, list):
+            #     visit_types = [str(vt).strip() for vt in visit_types]
+            # else:
+            #     raise ValueError(f"Unsupported type for visit_types: {type(visit_types)}")
+
+            # print(visit_types)
+
+            task_type_ids = []
+            
+            for order in range(len(visit_types)):
+                task_type = QuestionnaireToTaskType(QuestionnaireId=int(questionnaire.Id), TaskTypeId=int(visit_types[order]), CreatedOn=datetime.utcnow(), ModifiedOn=datetime.utcnow(), Order=order)
                 session.add(task_type)
                 session.commit()
-                self.logger.log_to_file(f"Added QuestionnaireToTaskType: QuestionnaireId={questionnaire.Id}, TaskTypeId={visit_type}, Order={order}")
+                task_type_ids.append(task_type.Id)
+                self.logger.log_to_file(f"Added QuestionnaireToTaskType: QuestionnaireId={questionnaire.Id}, TaskTypeId={visit_types[order]}, Order={order}")
+            
+            if specializations:
+                specializations = str(specializations)
+                specializations = re.sub(r'\s+', '', specializations)
+                specializations = specializations.split(',')
+                specializations = list(map(int, specializations))
+
+                for task_type_id in task_type_ids:
+                    for specialization in specializations:
+                        specialization_entry = QuestionnaireToTaskTypeSpecialization(
+                            QuestionnaireId=int(questionnaire.Id),
+                            SpecializationId=int(specialization),
+                            QuestionnaireToTaskTypeId=int(task_type_id),
+                            CreatedOn=datetime.utcnow(),
+                            ModifiedOn=datetime.utcnow()
+                        )
+                        session.add(specialization_entry)
+                        session.commit()
+                        self.logger.log_to_file(f"Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId={questionnaire.Id}, SpecializationId={specialization}, TaskTypeId={task_type_id}")
+
 
             # добавляем хэдер и вопросы
             # headers = {}

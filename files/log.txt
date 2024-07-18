@@ -135,3 +135,461 @@
 2024-07-15 13:15:04,073 - INFO - Added Question: 4.План развития клиента, ЛПУ
 2024-07-15 13:15:04,181 - INFO - Added QuestionConfiguration: QuestionId=2041, HeaderId=44
 2024-07-15 13:15:04,299 - INFO - Added QuestionAnswer for QuestionId=2041
+2024-07-15 15:08:38,163 - INFO - Added Questionnaire: Анкета Групповой двойной визит - Аптека
+2024-07-15 15:08:38,261 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=4, TaskTypeId=10, Order=0
+2024-07-15 15:08:38,348 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=4, TaskTypeId=16, Order=1
+2024-07-15 15:08:38,504 - INFO - Added Question: 1.SMART-Цель:ТЗ, замена в рамках МНН/ценовая замена, фармкружок, проверка выполнения акции
+2024-07-15 15:08:38,610 - INFO - Added QuestionConfiguration: QuestionId=52, HeaderId=12
+2024-07-15 15:08:38,962 - INFO - Added QuestionAnswer for QuestionId=52
+2024-07-15 15:08:39,100 - INFO - Added Question: 2. ВСЕ необходимые материалы для визита в рабочем состоянии.
+2024-07-15 15:08:39,208 - INFO - Added QuestionConfiguration: QuestionId=53, HeaderId=12
+2024-07-15 15:08:39,340 - INFO - Added QuestionAnswer for QuestionId=53
+2024-07-15 15:08:39,496 - INFO - Added QuestionnaireHeader: Открытие визита 
+2024-07-15 15:08:39,604 - INFO - Added Question: 1.Контакт с Администратором/первостольником установлен.
+2024-07-15 15:08:39,719 - INFO - Added QuestionConfiguration: QuestionId=54, HeaderId=23
+2024-07-15 15:08:39,840 - INFO - Added QuestionAnswer for QuestionId=54
+2024-07-15 15:08:39,983 - INFO - Added Question: 2.КС по бренду компании "Изварино Фарма"
+2024-07-15 15:08:40,106 - INFO - Added QuestionConfiguration: QuestionId=55, HeaderId=23
+2024-07-15 15:08:40,218 - INFO - Added QuestionAnswer for QuestionId=55
+2024-07-15 15:08:40,354 - INFO - Added Question: 3. Выяснение договоренностей с прошлого визита 
+2024-07-15 15:08:40,504 - INFO - Added QuestionConfiguration: QuestionId=56, HeaderId=23
+2024-07-15 15:08:40,631 - INFO - Added QuestionAnswer for QuestionId=56
+2024-07-15 15:08:40,775 - INFO - Added Question: 1. ТЗ и динамика в категории
+2024-07-15 15:08:40,899 - INFO - Added QuestionConfiguration: QuestionId=57, HeaderId=14
+2024-07-15 15:08:41,013 - INFO - Added QuestionAnswer for QuestionId=57
+2024-07-15 15:08:41,147 - INFO - Added Question: 2.  Ситуация по уходимости за период/выписке  препаратов ИФ и конкурентов, акции/баллы и пр.     
+2024-07-15 15:08:41,264 - INFO - Added QuestionConfiguration: QuestionId=58, HeaderId=14
+2024-07-15 15:08:41,396 - INFO - Added QuestionAnswer for QuestionId=58
+2024-07-15 15:08:41,523 - INFO - Added Question: 3. Контроль выполнения маркетингового договора с контрактованной АС
+2024-07-15 15:08:41,636 - INFO - Added QuestionConfiguration: QuestionId=59, HeaderId=14
+2024-07-15 15:08:41,751 - INFO - Added QuestionAnswer for QuestionId=59
+2024-07-15 15:08:41,885 - INFO - Added Question: Получены актуальные данные:
+Предпочтения и Критерии Администратора/первостольника в категории (что он считает лучшим/советует покупателям в рамках МНН, что заменяет и почему)   
+2024-07-15 15:08:42,006 - INFO - Added QuestionConfiguration: QuestionId=60, HeaderId=14
+2024-07-15 15:08:42,125 - INFO - Added QuestionAnswer for QuestionId=60
+2024-07-15 15:08:42,297 - INFO - Added Question: Презентация продукта по FAB согласно маркетинговой сетке и критерию клиента с актуализацией возможности увеличения оборота аптеки благодаря продуктам ИФ. Если есть запрос проводит презентацию компании ИФ.
+2024-07-15 15:08:42,421 - INFO - Added QuestionConfiguration: QuestionId=61, HeaderId=15
+2024-07-15 15:08:42,546 - INFO - Added QuestionAnswer for QuestionId=61
+2024-07-15 15:08:42,654 - INFO - Added QuestionnaireHeader: Маркетинговая стратегия 
+2024-07-15 15:08:42,780 - INFO - Added Question: Донесение на визите Ключевого сообщения по фокусному препарату по сетке
+2024-07-15 15:08:42,889 - INFO - Added QuestionConfiguration: QuestionId=62, HeaderId=24
+2024-07-15 15:08:43,005 - INFO - Added QuestionAnswer for QuestionId=62
+2024-07-15 15:08:43,136 - INFO - Added Question: 1.Реакция на презентацию отработана
+2024-07-15 15:08:43,241 - INFO - Added QuestionConfiguration: QuestionId=63, HeaderId=17
+2024-07-15 15:08:43,354 - INFO - Added QuestionAnswer for QuestionId=63
+2024-07-15 15:08:43,519 - INFO - Added Question: 2.Негативные реакции и возражения сняты
+2024-07-15 15:08:43,626 - INFO - Added QuestionConfiguration: QuestionId=64, HeaderId=17
+2024-07-15 15:08:43,749 - INFO - Added QuestionAnswer for QuestionId=64
+2024-07-15 15:08:43,894 - INFO - Added Question: 1.Получены кол-во в уп. на заказ препарата ИФ, ориентированное на прирост/договоренность о проведение фармкружка  
+2024-07-15 15:08:43,993 - INFO - Added QuestionConfiguration: QuestionId=65, HeaderId=18
+2024-07-15 15:08:44,101 - INFO - Added QuestionAnswer for QuestionId=65
+2024-07-15 15:08:44,231 - INFO - Added Question: 2. Получено подтверждение рекомендовать препарат Изварино при запросе от покупателя: по МНН,  порекомендуйте что-то подешевле; возможный перевод с конкурента с учетом принятых преимуществ
+2024-07-15 15:08:44,340 - INFO - Added QuestionConfiguration: QuestionId=66, HeaderId=18
+2024-07-15 15:08:44,481 - INFO - Added QuestionAnswer for QuestionId=66
+2024-07-15 15:08:44,607 - INFO - Added Question: 3. Обсуждены сроки
+2024-07-15 15:08:44,726 - INFO - Added QuestionConfiguration: QuestionId=67, HeaderId=18
+2024-07-15 15:08:44,869 - INFO - Added QuestionAnswer for QuestionId=67
+2024-07-15 15:08:45,040 - INFO - Added Question: 4.Подведен итог всех договоренностей
+2024-07-15 15:08:45,154 - INFO - Added QuestionConfiguration: QuestionId=68, HeaderId=18
+2024-07-15 15:08:45,297 - INFO - Added QuestionAnswer for QuestionId=68
+2024-07-15 15:08:45,461 - INFO - Added Question: 1. Выполнение поставленной Цели.
+2024-07-15 15:08:45,575 - INFO - Added QuestionConfiguration: QuestionId=69, HeaderId=19
+2024-07-15 15:08:45,717 - INFO - Added QuestionAnswer for QuestionId=69
+2024-07-15 15:08:45,853 - INFO - Added Question: 2.Результаты визита зафиксированы.
+2024-07-15 15:08:45,960 - INFO - Added QuestionConfiguration: QuestionId=70, HeaderId=19
+2024-07-15 15:08:46,094 - INFO - Added QuestionAnswer for QuestionId=70
+2024-07-15 15:08:46,244 - INFO - Added Question: 3.Цель (SMART) на следующий визит поставлена по результатам данного визита.
+2024-07-15 15:08:46,442 - INFO - Added QuestionConfiguration: QuestionId=71, HeaderId=19
+2024-07-15 15:08:46,586 - INFO - Added QuestionAnswer for QuestionId=71
+2024-07-15 15:08:46,742 - INFO - Added Question: 4.План развития клиента.
+2024-07-15 15:08:46,867 - INFO - Added QuestionConfiguration: QuestionId=72, HeaderId=19
+2024-07-15 15:08:46,976 - INFO - Added QuestionAnswer for QuestionId=72
+2024-07-15 15:24:29,886 - INFO - Added Questionnaire: Анкета Аудит визиты - Аптека
+2024-07-15 15:24:29,977 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=5, TaskTypeId=7, Order=0
+2024-07-15 15:24:30,080 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=5, TaskTypeId=23, Order=1
+2024-07-15 15:24:30,223 - INFO - Added QuestionnaireHeader: 1. УПРАВЛЕНИЕ ТЕРРИТОРИЕЙ
+2024-07-15 15:24:30,359 - INFO - Added Question: Выбор аптеки согласно визитной стратегии.
+2024-07-15 15:24:30,525 - INFO - Added QuestionConfiguration: QuestionId=73, HeaderId=25
+2024-07-15 15:24:30,696 - INFO - Added QuestionAnswer for QuestionId=73
+2024-07-15 15:24:30,887 - INFO - Added QuestionnaireHeader: 2. ЗАЛ
+2024-07-15 15:24:31,098 - INFO - Added Question: Наличие Голдлайна/Голдлайна+
+2024-07-15 15:24:31,259 - INFO - Added QuestionConfiguration: QuestionId=74, HeaderId=26
+2024-07-15 15:24:31,373 - INFO - Added QuestionAnswer for QuestionId=74
+2024-07-15 15:24:31,552 - INFO - Added QuestionnaireHeader: 3. ОЦЕНКА КАЧЕСТВА ВИЗИТА
+2024-07-15 15:24:31,691 - INFO - Added Question: Первоочередная рекомендация препаратов компании при запросе покупателем конкурента
+2024-07-15 15:24:31,887 - INFO - Added QuestionConfiguration: QuestionId=75, HeaderId=27
+2024-07-15 15:24:32,029 - INFO - Added QuestionAnswer for QuestionId=75
+2024-07-15 15:24:32,167 - INFO - Added Question: Знание работником первого стола КС для покупателя
+2024-07-15 15:24:32,284 - INFO - Added QuestionConfiguration: QuestionId=76, HeaderId=27
+2024-07-15 15:24:32,417 - INFO - Added QuestionAnswer for QuestionId=76
+2024-07-15 15:24:32,573 - INFO - Added Question: Лояльность. Отношение к сотруднику и компании
+2024-07-15 15:24:32,686 - INFO - Added QuestionConfiguration: QuestionId=77, HeaderId=27
+2024-07-15 15:24:32,789 - INFO - Added QuestionAnswer for QuestionId=77
+2024-07-15 15:24:32,915 - INFO - Added Question: Представленность всех брендов Компании*
+2024-07-15 15:24:33,030 - INFO - Added QuestionConfiguration: QuestionId=78, HeaderId=27
+2024-07-15 15:24:33,151 - INFO - Added QuestionAnswer for QuestionId=78
+2024-07-15 15:24:33,262 - INFO - Added QuestionnaireHeader: 4. УЧАСТИЕ В ПРОЕКТАХ
+2024-07-15 15:24:33,383 - INFO - Added Question: Правильность включения специалиста в Проект (в случае его участия)
+2024-07-15 15:24:33,506 - INFO - Added QuestionConfiguration: QuestionId=79, HeaderId=28
+2024-07-15 15:24:33,612 - INFO - Added QuestionAnswer for QuestionId=79
+2024-07-15 15:48:18,875 - INFO - Added Questionnaire: Анкета Групповой двойной визит - ЛПР
+2024-07-15 15:48:18,966 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=6, TaskTypeId=10, Order=0
+2024-07-15 15:48:19,074 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=6, TaskTypeId=16, Order=1
+2024-07-15 15:48:19,184 - INFO - Added Question: 1.SMART-Цель на данный визит согласно истории развития клиента и ЛПУ и результатам предыдущего визита.
+2024-07-15 15:48:19,360 - INFO - Added QuestionConfiguration: QuestionId=80, HeaderId=12
+2024-07-15 15:48:19,515 - INFO - Added QuestionAnswer for QuestionId=80
+2024-07-15 15:48:19,666 - INFO - Added Question: 2. Получена вся необходимая информация для визита (потребность отделений, расход препарата и фарм.группы за месяц, медицинская и фармако-экономическая информация, финансирование и т.д.) 
+2024-07-15 15:48:19,799 - INFO - Added QuestionConfiguration: QuestionId=81, HeaderId=12
+2024-07-15 15:48:19,907 - INFO - Added QuestionAnswer for QuestionId=81
+2024-07-15 15:48:20,058 - INFO - Added Question: 1.Контакт с ЛПР установлен.
+2024-07-15 15:48:20,166 - INFO - Added QuestionConfiguration: QuestionId=82, HeaderId=23
+2024-07-15 15:48:20,318 - INFO - Added QuestionAnswer for QuestionId=82
+2024-07-15 15:48:20,445 - INFO - Added Question: 2.Выявлен опыт применения препарата, МНН, фарм.группы в ЛПУ и договоренности
+2024-07-15 15:48:20,574 - INFO - Added QuestionConfiguration: QuestionId=83, HeaderId=23
+2024-07-15 15:48:20,693 - INFO - Added QuestionAnswer for QuestionId=83
+2024-07-15 15:48:20,844 - INFO - Added Question: 1. Потребность ЛПУ в препаратах ИФ и конкурентах из категории
+2024-07-15 15:48:20,945 - INFO - Added QuestionConfiguration: QuestionId=84, HeaderId=14
+2024-07-15 15:48:21,068 - INFO - Added QuestionAnswer for QuestionId=84
+2024-07-15 15:48:21,210 - INFO - Added Question: 2. Текущая ситуация (закуп - уходимость препаратов ИФ и конкурентов, бюджет)
+2024-07-15 15:48:21,369 - INFO - Added QuestionConfiguration: QuestionId=85, HeaderId=14
+2024-07-15 15:48:21,479 - INFO - Added QuestionAnswer for QuestionId=85
+2024-07-15 15:48:21,617 - INFO - Added Question: 3. Сдерживающие/cтимулирующие факторы
+2024-07-15 15:48:21,726 - INFO - Added QuestionConfiguration: QuestionId=86, HeaderId=14
+2024-07-15 15:48:21,832 - INFO - Added QuestionAnswer for QuestionId=86
+2024-07-15 15:48:21,973 - INFO - Added Question: 4. Сроки и периодичность заявки
+2024-07-15 15:48:22,082 - INFO - Added QuestionConfiguration: QuestionId=87, HeaderId=14
+2024-07-15 15:48:22,192 - INFO - Added QuestionAnswer for QuestionId=87
+2024-07-15 15:48:22,331 - INFO - Added Question: Презентация преимуществ применения  фокусных препаратов ИФ для ЛПУ с использованием выявленной потребности и необходимых аргументов (медицинских, фармако-экономических)
+2024-07-15 15:48:22,448 - INFO - Added QuestionConfiguration: QuestionId=88, HeaderId=15
+2024-07-15 15:48:22,560 - INFO - Added QuestionAnswer for QuestionId=88
+2024-07-15 15:48:22,713 - INFO - Added Question: Донесение на визите Ключевого сообщения по фокусному препарату согласно маркетинговой сетке
+2024-07-15 15:48:22,827 - INFO - Added QuestionConfiguration: QuestionId=89, HeaderId=24
+2024-07-15 15:48:22,973 - INFO - Added QuestionAnswer for QuestionId=89
+2024-07-15 15:48:23,103 - INFO - Added Question: 1.Реакция на презентацию отработана
+2024-07-15 15:48:23,224 - INFO - Added QuestionConfiguration: QuestionId=90, HeaderId=17
+2024-07-15 15:48:23,359 - INFO - Added QuestionAnswer for QuestionId=90
+2024-07-15 15:48:23,497 - INFO - Added Question: 2.Негативные реакции и возражения сняты
+2024-07-15 15:48:23,616 - INFO - Added QuestionConfiguration: QuestionId=91, HeaderId=17
+2024-07-15 15:48:23,747 - INFO - Added QuestionAnswer for QuestionId=91
+2024-07-15 15:48:23,879 - INFO - Added Question: 1.Получено измеримое (количество/доля) подтверждение по закупу, согласно Цели визита, определены сроки закупки
+2024-07-15 15:48:23,983 - INFO - Added QuestionConfiguration: QuestionId=92, HeaderId=18
+2024-07-15 15:48:24,097 - INFO - Added QuestionAnswer for QuestionId=92
+2024-07-15 15:48:24,219 - INFO - Added Question: 2.Предпочтения по поставщикам 
+2024-07-15 15:48:24,345 - INFO - Added QuestionConfiguration: QuestionId=93, HeaderId=18
+2024-07-15 15:48:24,452 - INFO - Added QuestionAnswer for QuestionId=93
+2024-07-15 15:48:24,580 - INFO - Added Question: 3. Имеется пошаговый план реализации закупа
+2024-07-15 15:48:24,698 - INFO - Added QuestionConfiguration: QuestionId=94, HeaderId=18
+2024-07-15 15:48:24,808 - INFO - Added QuestionAnswer for QuestionId=94
+2024-07-15 15:48:24,950 - INFO - Added Question: 4. Подведен итог 
+2024-07-15 15:48:25,056 - INFO - Added QuestionConfiguration: QuestionId=95, HeaderId=18
+2024-07-15 15:48:25,164 - INFO - Added QuestionAnswer for QuestionId=95
+2024-07-15 15:48:25,324 - INFO - Added Question: 1. Выполнение поставленной Цели.
+2024-07-15 15:48:25,454 - INFO - Added QuestionConfiguration: QuestionId=96, HeaderId=19
+2024-07-15 15:48:25,562 - INFO - Added QuestionAnswer for QuestionId=96
+2024-07-15 15:48:25,692 - INFO - Added Question: 2.Результаты визита зафиксированы.
+2024-07-15 15:48:25,801 - INFO - Added QuestionConfiguration: QuestionId=97, HeaderId=19
+2024-07-15 15:48:25,936 - INFO - Added QuestionAnswer for QuestionId=97
+2024-07-15 15:48:26,314 - INFO - Added Question: 3.Цель (SMART) на следующий визит поставлена по результатам данного визита. 
+2024-07-15 15:48:26,416 - INFO - Added QuestionConfiguration: QuestionId=98, HeaderId=19
+2024-07-15 15:48:26,545 - INFO - Added QuestionAnswer for QuestionId=98
+2024-07-15 15:48:26,679 - INFO - Added Question: 4.План развития клиента, ЛПУ
+2024-07-15 15:48:26,793 - INFO - Added QuestionConfiguration: QuestionId=99, HeaderId=19
+2024-07-15 15:48:26,908 - INFO - Added QuestionAnswer for QuestionId=99
+2024-07-15 16:49:58,493 - INFO - Added Questionnaire: Анкета 1 _Аритмолог
+2024-07-15 16:56:58,265 - INFO - Added Questionnaire: Анкета 1 _Аритмолог
+2024-07-15 17:05:07,243 - INFO - Added Questionnaire: Анкета 1 _Аритмолог
+2024-07-15 17:12:18,893 - INFO - Added Questionnaire: Анкета 1 _Аритмолог
+2024-07-15 17:19:39,186 - INFO - Added Questionnaire: Анкета 1 _Аритмолог
+2024-07-15 17:27:15,348 - INFO - Added Questionnaire: Анкета 1 _Аритмолог
+2024-07-15 17:27:34,643 - INFO - Added Questionnaire: Анкета 1 _Аритмолог
+2024-07-15 17:27:34,725 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=65, TaskTypeId=3, Order=0
+2024-07-15 17:27:34,863 - INFO - Added QuestionnaireHeader: Потенциал Флекаинид
+2024-07-15 17:27:34,977 - INFO - Added Question: Какое количество пациентов в месяц у Вас на приеме: 
+1) с  пароксизмальной фибрилляция или трепетание предсердий,
+2024-07-15 17:27:35,094 - INFO - Added QuestionConfiguration: QuestionId=2042, HeaderId=45
+2024-07-15 17:27:35,232 - INFO - Added Question: Какое количество пациентов в месяц у Вас на приеме: 2) симптомная пароксизмальная наджелудочковая 
+тахикардия, в т.ч. атриовентрикулярная (AV) узловая реципрокная тахикардия или наджелудочковая тахикардия, связанная с синдромом Вольфа-Паркинсона-Уайта).
+2024-07-15 17:27:35,343 - INFO - Added QuestionConfiguration: QuestionId=2043, HeaderId=45
+2024-07-15 17:27:35,468 - INFO - Added Question: Какое количество пациентов в месяц у Вас на приеме: 3) устойчивая желудочковая тахикардия
+2024-07-15 17:27:35,577 - INFO - Added QuestionConfiguration: QuestionId=2044, HeaderId=45
+2024-07-15 17:27:35,715 - INFO - Added Question: Какую долю среди них составляют пациенты без структурной патологии сердца, в т.ч. с ФВ более 40% и ГЛЖ не более 14 мм? 
+2024-07-15 17:27:35,840 - INFO - Added QuestionConfiguration: QuestionId=2045, HeaderId=45
+2024-07-15 17:27:35,969 - INFO - Added Question: Какое количество пациентов без структурной патологии сердца Вы направляете на РЧА (катетерную аблацию) ?
+2024-07-15 17:27:36,077 - INFO - Added QuestionConfiguration: QuestionId=2046, HeaderId=45
+2024-07-15 17:27:36,207 - INFO - Added Question: Какому количеству удалось назначить Флекаинид?
+2024-07-15 17:27:36,307 - INFO - Added QuestionConfiguration: QuestionId=2047, HeaderId=45
+2024-07-15 17:27:36,411 - INFO - Added QuestionnaireHeader: Потенциал ПОАК
+2024-07-15 17:27:36,511 - INFO - Added Question: Скольким пациентам требуется назначение ПОАК (эти пациенты не льготники и покупают за свои деньги) ?
+2024-07-15 17:27:36,612 - INFO - Added QuestionConfiguration: QuestionId=2048, HeaderId=46
+2024-07-15 17:27:36,739 - INFO - Added Question: Какому количеству пациентов удалось назначить Транидаб?
+2024-07-15 17:27:36,892 - INFO - Added QuestionConfiguration: QuestionId=2049, HeaderId=46
+2024-07-15 17:27:36,997 - INFO - Added QuestionnaireHeader: Потенциал антиагреганты
+2024-07-15 17:27:37,105 - INFO - Added Question: Какому количеству пациентов  Вы рекомендуете тикагрелор/клопидогрел (пациенты НЕ льготники и сами покупают в аптеке)?
+2024-07-15 17:27:37,211 - INFO - Added QuestionConfiguration: QuestionId=2050, HeaderId=47
+2024-07-15 17:27:37,331 - INFO - Added Question: Скольким пациентам удалось назначить Катилорикс?
+2024-07-15 17:27:37,432 - INFO - Added QuestionConfiguration: QuestionId=2051, HeaderId=47
+2024-07-15 17:32:58,012 - INFO - Added Questionnaire: Анкета 1 _Аритмолог
+2024-07-15 17:35:18,940 - INFO - Added Questionnaire: Анкета 1 _Аритмолог
+2024-07-15 17:35:51,860 - INFO - Added Questionnaire: Анкета 1 _Аритмолог
+2024-07-15 17:35:51,965 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=68, TaskTypeId=3, Order=0
+2024-07-15 17:36:41,973 - INFO - Added Questionnaire: Анкета 1 _Аритмолог
+2024-07-15 17:36:42,079 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=69, TaskTypeId=3, Order=0
+2024-07-15 17:36:42,198 - INFO - Added Question: Какое количество пациентов в месяц у Вас на приеме: 
+1) с  пароксизмальной фибрилляция или трепетание предсердий,
+2024-07-15 17:36:42,329 - INFO - Added QuestionConfiguration: QuestionId=2052, HeaderId=45
+2024-07-15 17:36:42,459 - INFO - Added Question: Какое количество пациентов в месяц у Вас на приеме: 2) симптомная пароксизмальная наджелудочковая 
+тахикардия, в т.ч. атриовентрикулярная (AV) узловая реципрокная тахикардия или наджелудочковая тахикардия, связанная с синдромом Вольфа-Паркинсона-Уайта).
+2024-07-15 17:36:42,588 - INFO - Added QuestionConfiguration: QuestionId=2053, HeaderId=45
+2024-07-15 17:36:42,712 - INFO - Added Question: Какое количество пациентов в месяц у Вас на приеме: 3) устойчивая желудочковая тахикардия
+2024-07-15 17:36:42,820 - INFO - Added QuestionConfiguration: QuestionId=2054, HeaderId=45
+2024-07-15 17:36:42,972 - INFO - Added Question: Какую долю среди них составляют пациенты без структурной патологии сердца, в т.ч. с ФВ более 40% и ГЛЖ не более 14 мм? 
+2024-07-15 17:36:43,080 - INFO - Added QuestionConfiguration: QuestionId=2055, HeaderId=45
+2024-07-15 17:36:43,208 - INFO - Added Question: Какое количество пациентов без структурной патологии сердца Вы направляете на РЧА (катетерную аблацию) ?
+2024-07-15 17:36:43,337 - INFO - Added QuestionConfiguration: QuestionId=2056, HeaderId=45
+2024-07-15 17:36:43,468 - INFO - Added Question: Какому количеству удалось назначить Флекаинид?
+2024-07-15 17:36:43,610 - INFO - Added QuestionConfiguration: QuestionId=2057, HeaderId=45
+2024-07-15 17:36:43,755 - INFO - Added Question: Скольким пациентам требуется назначение ПОАК (эти пациенты не льготники и покупают за свои деньги) ?
+2024-07-15 17:36:43,854 - INFO - Added QuestionConfiguration: QuestionId=2058, HeaderId=46
+2024-07-15 17:36:43,979 - INFO - Added Question: Какому количеству пациентов удалось назначить Транидаб?
+2024-07-15 17:36:44,079 - INFO - Added QuestionConfiguration: QuestionId=2059, HeaderId=46
+2024-07-15 17:36:44,212 - INFO - Added Question: Какому количеству пациентов  Вы рекомендуете тикагрелор/клопидогрел (пациенты НЕ льготники и сами покупают в аптеке)?
+2024-07-15 17:36:44,323 - INFO - Added QuestionConfiguration: QuestionId=2060, HeaderId=47
+2024-07-15 17:36:44,449 - INFO - Added Question: Скольким пациентам удалось назначить Катилорикс?
+2024-07-15 17:36:44,594 - INFO - Added QuestionConfiguration: QuestionId=2061, HeaderId=47
+2024-07-15 17:39:20,419 - INFO - Added Questionnaire: Анкета 1 _Аритмолог
+2024-07-15 17:39:20,513 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=70, TaskTypeId=3, Order=0
+2024-07-15 17:39:20,638 - INFO - Added Question: Какое количество пациентов в месяц у Вас на приеме: 
+1) с  пароксизмальной фибрилляция или трепетание предсердий,
+2024-07-15 17:39:20,757 - INFO - Added QuestionConfiguration: QuestionId=2062, HeaderId=45
+2024-07-15 17:39:20,878 - INFO - Added Question: Какое количество пациентов в месяц у Вас на приеме: 2) симптомная пароксизмальная наджелудочковая 
+тахикардия, в т.ч. атриовентрикулярная (AV) узловая реципрокная тахикардия или наджелудочковая тахикардия, связанная с синдромом Вольфа-Паркинсона-Уайта).
+2024-07-15 17:39:20,998 - INFO - Added QuestionConfiguration: QuestionId=2063, HeaderId=45
+2024-07-15 17:39:21,126 - INFO - Added Question: Какое количество пациентов в месяц у Вас на приеме: 3) устойчивая желудочковая тахикардия
+2024-07-15 17:39:21,229 - INFO - Added QuestionConfiguration: QuestionId=2064, HeaderId=45
+2024-07-15 17:39:21,358 - INFO - Added Question: Какую долю среди них составляют пациенты без структурной патологии сердца, в т.ч. с ФВ более 40% и ГЛЖ не более 14 мм? 
+2024-07-15 17:39:21,467 - INFO - Added QuestionConfiguration: QuestionId=2065, HeaderId=45
+2024-07-15 17:39:21,599 - INFO - Added Question: Какое количество пациентов без структурной патологии сердца Вы направляете на РЧА (катетерную аблацию) ?
+2024-07-15 17:39:21,706 - INFO - Added QuestionConfiguration: QuestionId=2066, HeaderId=45
+2024-07-15 17:39:21,828 - INFO - Added Question: Какому количеству удалось назначить Флекаинид?
+2024-07-15 17:39:21,946 - INFO - Added QuestionConfiguration: QuestionId=2067, HeaderId=45
+2024-07-15 17:39:22,105 - INFO - Added Question: Скольким пациентам требуется назначение ПОАК (эти пациенты не льготники и покупают за свои деньги) ?
+2024-07-15 17:39:22,209 - INFO - Added QuestionConfiguration: QuestionId=2068, HeaderId=46
+2024-07-15 17:39:22,358 - INFO - Added Question: Какому количеству пациентов удалось назначить Транидаб?
+2024-07-15 17:39:22,463 - INFO - Added QuestionConfiguration: QuestionId=2069, HeaderId=46
+2024-07-15 17:39:22,583 - INFO - Added Question: Какому количеству пациентов  Вы рекомендуете тикагрелор/клопидогрел (пациенты НЕ льготники и сами покупают в аптеке)?
+2024-07-15 17:39:22,694 - INFO - Added QuestionConfiguration: QuestionId=2070, HeaderId=47
+2024-07-15 17:39:22,823 - INFO - Added Question: Скольким пациентам удалось назначить Катилорикс?
+2024-07-15 17:39:22,928 - INFO - Added QuestionConfiguration: QuestionId=2071, HeaderId=47
+2024-07-15 17:39:52,658 - INFO - Added Questionnaire: Анкета 1 _Аритмолог
+2024-07-15 17:39:52,762 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=71, TaskTypeId=3, Order=0
+2024-07-15 17:39:52,861 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=71, TaskTypeId=4, Order=1
+2024-07-15 17:39:52,980 - INFO - Added Question: Какое количество пациентов в месяц у Вас на приеме: 
+1) с  пароксизмальной фибрилляция или трепетание предсердий,
+2024-07-15 17:39:53,136 - INFO - Added QuestionConfiguration: QuestionId=2072, HeaderId=45
+2024-07-15 17:39:53,262 - INFO - Added Question: Какое количество пациентов в месяц у Вас на приеме: 2) симптомная пароксизмальная наджелудочковая 
+тахикардия, в т.ч. атриовентрикулярная (AV) узловая реципрокная тахикардия или наджелудочковая тахикардия, связанная с синдромом Вольфа-Паркинсона-Уайта).
+2024-07-15 17:39:53,381 - INFO - Added QuestionConfiguration: QuestionId=2073, HeaderId=45
+2024-07-15 17:39:53,522 - INFO - Added Question: Какое количество пациентов в месяц у Вас на приеме: 3) устойчивая желудочковая тахикардия
+2024-07-15 17:39:53,630 - INFO - Added QuestionConfiguration: QuestionId=2074, HeaderId=45
+2024-07-15 17:39:53,793 - INFO - Added Question: Какую долю среди них составляют пациенты без структурной патологии сердца, в т.ч. с ФВ более 40% и ГЛЖ не более 14 мм? 
+2024-07-15 17:39:53,901 - INFO - Added QuestionConfiguration: QuestionId=2075, HeaderId=45
+2024-07-15 17:39:54,035 - INFO - Added Question: Какое количество пациентов без структурной патологии сердца Вы направляете на РЧА (катетерную аблацию) ?
+2024-07-15 17:39:54,160 - INFO - Added QuestionConfiguration: QuestionId=2076, HeaderId=45
+2024-07-15 17:39:54,338 - INFO - Added Question: Какому количеству удалось назначить Флекаинид?
+2024-07-15 17:39:54,450 - INFO - Added QuestionConfiguration: QuestionId=2077, HeaderId=45
+2024-07-15 17:39:54,593 - INFO - Added Question: Скольким пациентам требуется назначение ПОАК (эти пациенты не льготники и покупают за свои деньги) ?
+2024-07-15 17:39:54,727 - INFO - Added QuestionConfiguration: QuestionId=2078, HeaderId=46
+2024-07-15 17:39:54,853 - INFO - Added Question: Какому количеству пациентов удалось назначить Транидаб?
+2024-07-15 17:39:54,951 - INFO - Added QuestionConfiguration: QuestionId=2079, HeaderId=46
+2024-07-15 17:39:55,095 - INFO - Added Question: Какому количеству пациентов  Вы рекомендуете тикагрелор/клопидогрел (пациенты НЕ льготники и сами покупают в аптеке)?
+2024-07-15 17:39:55,238 - INFO - Added QuestionConfiguration: QuestionId=2080, HeaderId=47
+2024-07-15 17:39:55,378 - INFO - Added Question: Скольким пациентам удалось назначить Катилорикс?
+2024-07-15 17:39:55,480 - INFO - Added QuestionConfiguration: QuestionId=2081, HeaderId=47
+2024-07-16 13:01:56,918 - INFO - Added Questionnaire: Анкета 1 _Аритмолог v2
+2024-07-16 13:01:57,136 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=72, TaskTypeId=4, Order=0
+2024-07-16 13:01:57,246 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=72, SpecializationId=7, TaskTypeId=63
+2024-07-16 13:01:57,358 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=72, SpecializationId=6, TaskTypeId=63
+2024-07-16 13:01:57,478 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=72, SpecializationId=65, TaskTypeId=63
+2024-07-16 13:01:57,625 - INFO - Added Question: Какое количество пациентов в месяц у Вас на приеме: 
+1) с  пароксизмальной фибрилляция или трепетание предсердий,
+2024-07-16 13:01:57,784 - INFO - Added QuestionConfiguration: QuestionId=2082, HeaderId=45
+2024-07-16 13:01:57,975 - INFO - Added Question: Какое количество пациентов в месяц у Вас на приеме: 2) симптомная пароксизмальная наджелудочковая 
+тахикардия, в т.ч. атриовентрикулярная (AV) узловая реципрокная тахикардия или наджелудочковая тахикардия, связанная с синдромом Вольфа-Паркинсона-Уайта).
+2024-07-16 13:01:58,134 - INFO - Added QuestionConfiguration: QuestionId=2083, HeaderId=45
+2024-07-16 13:01:58,344 - INFO - Added Question: Какое количество пациентов в месяц у Вас на приеме: 3) устойчивая желудочковая тахикардия
+2024-07-16 13:01:58,524 - INFO - Added QuestionConfiguration: QuestionId=2084, HeaderId=45
+2024-07-16 13:01:58,754 - INFO - Added Question: Какую долю среди них составляют пациенты без структурной патологии сердца, в т.ч. с ФВ более 40% и ГЛЖ не более 14 мм? 
+2024-07-16 13:01:58,910 - INFO - Added QuestionConfiguration: QuestionId=2085, HeaderId=45
+2024-07-16 13:01:59,081 - INFO - Added Question: Какое количество пациентов без структурной патологии сердца Вы направляете на РЧА (катетерную аблацию) ?
+2024-07-16 13:01:59,241 - INFO - Added QuestionConfiguration: QuestionId=2086, HeaderId=45
+2024-07-16 13:01:59,396 - INFO - Added Question: Какому количеству удалось назначить Флекаинид?
+2024-07-16 13:01:59,558 - INFO - Added QuestionConfiguration: QuestionId=2087, HeaderId=45
+2024-07-16 13:01:59,722 - INFO - Added Question: Скольким пациентам требуется назначение ПОАК (эти пациенты не льготники и покупают за свои деньги) ?
+2024-07-16 13:01:59,849 - INFO - Added QuestionConfiguration: QuestionId=2088, HeaderId=46
+2024-07-16 13:02:00,003 - INFO - Added Question: Какому количеству пациентов удалось назначить Транидаб?
+2024-07-16 13:02:00,398 - INFO - Added QuestionConfiguration: QuestionId=2089, HeaderId=46
+2024-07-16 13:02:00,889 - INFO - Added Question: Какому количеству пациентов  Вы рекомендуете тикагрелор/клопидогрел (пациенты НЕ льготники и сами покупают в аптеке)?
+2024-07-16 13:02:01,183 - INFO - Added QuestionConfiguration: QuestionId=2090, HeaderId=47
+2024-07-16 13:02:01,369 - INFO - Added Question: Скольким пациентам удалось назначить Катилорикс?
+2024-07-16 13:02:01,515 - INFO - Added QuestionConfiguration: QuestionId=2091, HeaderId=47
+2024-07-16 14:45:48,948 - INFO - Added Questionnaire: Анкета 1 _Аритмолог v3
+2024-07-16 14:45:49,227 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=73, TaskTypeId=4, Order=0
+2024-07-16 14:45:49,508 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=73, TaskTypeId=58, Order=1
+2024-07-16 14:45:49,675 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=73, SpecializationId=6, TaskTypeId=64
+2024-07-16 14:45:49,875 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=73, SpecializationId=6, TaskTypeId=65
+2024-07-16 14:45:50,133 - INFO - Added Question: Какое количество пациентов в месяц у Вас на приеме: 
+1) с  пароксизмальной фибрилляция или трепетание предсердий,
+2024-07-16 14:45:50,502 - INFO - Added QuestionConfiguration: QuestionId=2092, HeaderId=45
+2024-07-16 14:45:50,767 - INFO - Added Question: Какое количество пациентов в месяц у Вас на приеме: 2) симптомная пароксизмальная наджелудочковая 
+тахикардия, в т.ч. атриовентрикулярная (AV) узловая реципрокная тахикардия или наджелудочковая тахикардия, связанная с синдромом Вольфа-Паркинсона-Уайта).
+2024-07-16 14:45:51,074 - INFO - Added QuestionConfiguration: QuestionId=2093, HeaderId=45
+2024-07-16 14:45:51,377 - INFO - Added Question: Какое количество пациентов в месяц у Вас на приеме: 3) устойчивая желудочковая тахикардия
+2024-07-16 14:45:51,654 - INFO - Added QuestionConfiguration: QuestionId=2094, HeaderId=45
+2024-07-16 14:45:51,946 - INFO - Added Question: Какую долю среди них составляют пациенты без структурной патологии сердца, в т.ч. с ФВ более 40% и ГЛЖ не более 14 мм? 
+2024-07-16 14:45:52,506 - INFO - Added QuestionConfiguration: QuestionId=2095, HeaderId=45
+2024-07-16 14:45:52,842 - INFO - Added Question: Какое количество пациентов без структурной патологии сердца Вы направляете на РЧА (катетерную аблацию) ?
+2024-07-16 14:45:53,047 - INFO - Added QuestionConfiguration: QuestionId=2096, HeaderId=45
+2024-07-16 14:45:53,325 - INFO - Added Question: Какому количеству удалось назначить Флекаинид?
+2024-07-16 14:45:53,532 - INFO - Added QuestionConfiguration: QuestionId=2097, HeaderId=45
+2024-07-16 14:45:53,813 - INFO - Added Question: Скольким пациентам требуется назначение ПОАК (эти пациенты не льготники и покупают за свои деньги) ?
+2024-07-16 14:45:54,073 - INFO - Added QuestionConfiguration: QuestionId=2098, HeaderId=46
+2024-07-16 14:45:54,411 - INFO - Added Question: Какому количеству пациентов удалось назначить Транидаб?
+2024-07-16 14:45:54,674 - INFO - Added QuestionConfiguration: QuestionId=2099, HeaderId=46
+2024-07-16 14:45:55,008 - INFO - Added Question: Какому количеству пациентов  Вы рекомендуете тикагрелор/клопидогрел (пациенты НЕ льготники и сами покупают в аптеке)?
+2024-07-16 14:45:55,193 - INFO - Added QuestionConfiguration: QuestionId=2100, HeaderId=47
+2024-07-16 14:45:55,442 - INFO - Added Question: Скольким пациентам удалось назначить Катилорикс?
+2024-07-16 14:45:55,655 - INFO - Added QuestionConfiguration: QuestionId=2101, HeaderId=47
+2024-07-16 15:26:53,619 - INFO - Added Questionnaire: Аритмолог
+2024-07-16 15:26:53,953 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=7, TaskTypeId=4, Order=0
+2024-07-16 15:26:54,193 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=7, TaskTypeId=30, Order=1
+2024-07-16 15:26:54,428 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=7, SpecializationId=6990, TaskTypeId=18
+2024-07-16 15:26:54,705 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=7, SpecializationId=6990, TaskTypeId=19
+2024-07-16 15:26:54,999 - INFO - Added QuestionnaireHeader: Потенциал Флекаинид
+2024-07-16 15:26:55,260 - INFO - Added Question: Какое количество пациентов в месяц у Вас на приеме: 
+1) с  пароксизмальной фибрилляция или трепетание предсердий,
+2024-07-16 15:26:55,453 - INFO - Added QuestionConfiguration: QuestionId=100, HeaderId=29
+2024-07-16 15:26:55,687 - INFO - Added Question: Какое количество пациентов в месяц у Вас на приеме: 2) симптомная пароксизмальная наджелудочковая 
+тахикардия, в т.ч. атриовентрикулярная (AV) узловая реципрокная тахикардия или наджелудочковая тахикардия, связанная с синдромом Вольфа-Паркинсона-Уайта).
+2024-07-16 15:26:55,857 - INFO - Added QuestionConfiguration: QuestionId=101, HeaderId=29
+2024-07-16 15:26:56,189 - INFO - Added Question: Какое количество пациентов в месяц у Вас на приеме: 3) устойчивая желудочковая тахикардия
+2024-07-16 15:26:56,555 - INFO - Added QuestionConfiguration: QuestionId=102, HeaderId=29
+2024-07-16 15:26:56,875 - INFO - Added Question: Какую долю среди них составляют пациенты без структурной патологии сердца, в т.ч. с ФВ более 40% и ГЛЖ не более 14 мм? 
+2024-07-16 15:26:57,140 - INFO - Added QuestionConfiguration: QuestionId=103, HeaderId=29
+2024-07-16 15:26:57,444 - INFO - Added Question: Какое количество пациентов без структурной патологии сердца Вы направляете на РЧА (катетерную аблацию) ?
+2024-07-16 15:26:57,687 - INFO - Added QuestionConfiguration: QuestionId=104, HeaderId=29
+2024-07-16 15:26:57,895 - INFO - Added Question: Какому количеству удалось назначить Флекаинид?
+2024-07-16 15:26:58,181 - INFO - Added QuestionConfiguration: QuestionId=105, HeaderId=29
+2024-07-16 15:26:58,424 - INFO - Added QuestionnaireHeader: Потенциал ПОАК
+2024-07-16 15:26:58,692 - INFO - Added Question: Скольким пациентам требуется назначение ПОАК (эти пациенты не льготники и покупают за свои деньги) ?
+2024-07-16 15:26:58,878 - INFO - Added QuestionConfiguration: QuestionId=106, HeaderId=30
+2024-07-16 15:26:59,117 - INFO - Added Question: Какому количеству пациентов удалось назначить Транидаб?
+2024-07-16 15:26:59,355 - INFO - Added QuestionConfiguration: QuestionId=107, HeaderId=30
+2024-07-16 15:26:59,825 - INFO - Added QuestionnaireHeader: Потенциал антиагреганты
+2024-07-16 15:27:00,039 - INFO - Added Question: Какому количеству пациентов  Вы рекомендуете тикагрелор/клопидогрел (пациенты НЕ льготники и сами покупают в аптеке)?
+2024-07-16 15:27:00,234 - INFO - Added QuestionConfiguration: QuestionId=108, HeaderId=31
+2024-07-16 15:27:00,424 - INFO - Added Question: Скольким пациентам удалось назначить Катилорикс?
+2024-07-16 15:27:00,598 - INFO - Added QuestionConfiguration: QuestionId=109, HeaderId=31
+2024-07-16 15:30:16,953 - INFO - Added Questionnaire: Кардиолог
+2024-07-16 15:30:17,165 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=8, TaskTypeId=4, Order=0
+2024-07-16 15:30:17,369 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=8, TaskTypeId=30, Order=1
+2024-07-16 15:30:17,509 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=8, SpecializationId=6990, TaskTypeId=20
+2024-07-16 15:30:17,649 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=8, SpecializationId=6990, TaskTypeId=21
+2024-07-16 15:30:17,818 - INFO - Added Question: Какое количество пациентов у Вас на приеме с НФП без структурных изменений сердца?  
+2024-07-16 15:30:17,985 - INFO - Added QuestionConfiguration: QuestionId=110, HeaderId=29
+2024-07-16 15:30:18,210 - INFO - Added Question: Какому количеству удалось назначить Флекаинид?
+2024-07-16 15:30:18,386 - INFO - Added QuestionConfiguration: QuestionId=111, HeaderId=29
+2024-07-16 15:30:18,544 - INFO - Added Question: Скольким пациентам требуется назначение ПОАК (эти пациенты не льготники и покупают за свои деньги) ?
+2024-07-16 15:30:18,679 - INFO - Added QuestionConfiguration: QuestionId=112, HeaderId=30
+2024-07-16 15:30:18,827 - INFO - Added Question: Какому количеству пациентов удалось назначить Транидаб?
+2024-07-16 15:30:18,978 - INFO - Added QuestionConfiguration: QuestionId=113, HeaderId=30
+2024-07-16 15:30:19,279 - INFO - Added Question: Какому количеству пациентов  Вы рекомендуете тикагрелор/клопидогрел (пациенты НЕ льготники и сами покупают в аптеке)?
+2024-07-16 15:30:19,466 - INFO - Added QuestionConfiguration: QuestionId=114, HeaderId=31
+2024-07-16 15:30:19,645 - INFO - Added Question: Скольким пациентам удалось назначить Катилорикс?
+2024-07-16 15:30:19,805 - INFO - Added QuestionConfiguration: QuestionId=115, HeaderId=31
+2024-07-16 15:35:45,888 - INFO - Added Questionnaire: Кардиохирург/СС-хирург
+2024-07-16 15:35:46,063 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=9, TaskTypeId=4, Order=0
+2024-07-16 15:35:46,288 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=9, TaskTypeId=30, Order=1
+2024-07-16 15:35:46,408 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=9, SpecializationId=5435, TaskTypeId=22
+2024-07-16 15:35:46,521 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=9, SpecializationId=7079, TaskTypeId=22
+2024-07-16 15:35:46,627 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=9, SpecializationId=6891, TaskTypeId=22
+2024-07-16 15:35:46,783 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=9, SpecializationId=5435, TaskTypeId=23
+2024-07-16 15:35:46,887 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=9, SpecializationId=7079, TaskTypeId=23
+2024-07-16 15:35:47,029 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=9, SpecializationId=6891, TaskTypeId=23
+2024-07-16 15:35:47,187 - INFO - Added Question: Какому количеству пациентов без структурной патологии сердца Вы проводите РЧА?
+2024-07-16 15:35:47,330 - INFO - Added QuestionConfiguration: QuestionId=116, HeaderId=29
+2024-07-16 15:35:47,518 - INFO - Added Question: Какому кол-ву пациентов вы назнаете ААП 1 С после проведения РЧА?
+2024-07-16 15:35:47,658 - INFO - Added QuestionConfiguration: QuestionId=117, HeaderId=29
+2024-07-16 15:35:47,831 - INFO - Added Question: Какому количеству удалось назначить Флекаинид?
+2024-07-16 15:35:47,995 - INFO - Added QuestionConfiguration: QuestionId=118, HeaderId=29
+2024-07-16 15:35:48,253 - INFO - Added Question: Скольким пациентам требуется назначение ПОАК (эти пациенты не льготники и покупают за свои деньги) ?
+2024-07-16 15:35:48,429 - INFO - Added QuestionConfiguration: QuestionId=119, HeaderId=30
+2024-07-16 15:35:48,636 - INFO - Added Question: Какому количеству пациентов удалось назначить Транидаб?
+2024-07-16 15:35:48,782 - INFO - Added QuestionConfiguration: QuestionId=120, HeaderId=30
+2024-07-16 15:35:48,938 - INFO - Added Question: Какому количеству пациентов  Вы рекомендуете тикагрелор/клопидогрел (пациенты НЕ льготники и сами покупают в аптеке)?
+2024-07-16 15:35:49,057 - INFO - Added QuestionConfiguration: QuestionId=121, HeaderId=31
+2024-07-16 15:35:49,224 - INFO - Added Question: Скольким пациентам удалось назначить Катилорикс?
+2024-07-16 15:35:49,357 - INFO - Added QuestionConfiguration: QuestionId=122, HeaderId=31
+2024-07-16 15:40:27,927 - INFO - Added Questionnaire: Кардиолог стационарный
+2024-07-16 15:40:28,118 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=10, TaskTypeId=4, Order=0
+2024-07-16 15:40:28,366 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=10, TaskTypeId=30, Order=1
+2024-07-16 15:40:28,622 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=10, SpecializationId=6802, TaskTypeId=24
+2024-07-16 15:40:28,792 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=10, SpecializationId=6802, TaskTypeId=25
+2024-07-16 15:40:28,939 - INFO - Added Question: Какое количество медикаментозных кардиоверсий Вы проводите  у пациентов без структурной патологии сердца ? 
+2024-07-16 15:40:29,066 - INFO - Added QuestionConfiguration: QuestionId=123, HeaderId=29
+2024-07-16 15:40:29,222 - INFO - Added Question: Какое количество пациентов без структурной патологии выписывается на ААП 1С?
+2024-07-16 15:40:29,354 - INFO - Added QuestionConfiguration: QuestionId=124, HeaderId=29
+2024-07-16 15:40:29,632 - INFO - Added Question: Какому количеству пациентов удалось назначить Флекаинид?
+2024-07-16 15:40:29,846 - INFO - Added QuestionConfiguration: QuestionId=125, HeaderId=29
+2024-07-16 15:40:30,004 - INFO - Added Question: Скольким пациентам требуется назначение ПОАК (эти пациенты не льготники и покупают за свои деньги) ?
+2024-07-16 15:40:30,162 - INFO - Added QuestionConfiguration: QuestionId=126, HeaderId=30
+2024-07-16 15:40:30,610 - INFO - Added Question: Какому количеству пациентов удалось назначить Транидаб?
+2024-07-16 15:40:31,072 - INFO - Added QuestionConfiguration: QuestionId=127, HeaderId=30
+2024-07-16 15:40:31,579 - INFO - Added Question: Какому количеству пациентов  Вы рекомендуете тикагрелор/клопидогрел (пациенты НЕ льготники и сами покупают в аптеке)?
+2024-07-16 15:40:31,792 - INFO - Added QuestionConfiguration: QuestionId=128, HeaderId=31
+2024-07-16 15:40:31,998 - INFO - Added Question: Скольким пациентам удалось назначить Катилорикс?
+2024-07-16 15:40:32,164 - INFO - Added QuestionConfiguration: QuestionId=129, HeaderId=31
+2024-07-16 15:45:55,559 - INFO - Added Questionnaire: Флеболог
+2024-07-16 15:45:55,766 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=11, TaskTypeId=4, Order=0
+2024-07-16 15:45:55,920 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=11, TaskTypeId=30, Order=1
+2024-07-16 15:45:56,041 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=11, SpecializationId=5187, TaskTypeId=26
+2024-07-16 15:45:56,160 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=11, SpecializationId=6988, TaskTypeId=26
+2024-07-16 15:45:56,294 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=11, SpecializationId=6800, TaskTypeId=26
+2024-07-16 15:45:56,397 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=11, SpecializationId=5187, TaskTypeId=27
+2024-07-16 15:45:56,503 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=11, SpecializationId=6988, TaskTypeId=27
+2024-07-16 15:45:56,642 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=11, SpecializationId=6800, TaskTypeId=27
+2024-07-16 15:45:56,810 - INFO - Added Question: Скольким пациентам требуется назначение ПОАК (эти пациенты не льготники и покупают за свои деньги) ?
+2024-07-16 15:45:56,960 - INFO - Added QuestionConfiguration: QuestionId=130, HeaderId=30
+2024-07-16 15:45:57,134 - INFO - Added Question: Какому количеству пациентов удалось назначить Транидаб?
+2024-07-16 15:45:57,300 - INFO - Added QuestionConfiguration: QuestionId=131, HeaderId=30
+2024-07-16 15:48:02,333 - INFO - Added Questionnaire: Неврологи ОНМК
+2024-07-16 15:48:02,683 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=12, TaskTypeId=4, Order=0
+2024-07-16 15:48:02,903 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=12, TaskTypeId=30, Order=1
+2024-07-16 15:48:03,031 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=12, SpecializationId=5158, TaskTypeId=28
+2024-07-16 15:48:03,145 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=12, SpecializationId=7023, TaskTypeId=28
+2024-07-16 15:48:03,269 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=12, SpecializationId=6835, TaskTypeId=28
+2024-07-16 15:48:03,416 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=12, SpecializationId=5158, TaskTypeId=29
+2024-07-16 15:48:03,544 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=12, SpecializationId=7023, TaskTypeId=29
+2024-07-16 15:48:03,680 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=12, SpecializationId=6835, TaskTypeId=29
+2024-07-16 15:48:03,845 - INFO - Added Question: Скольким пациентам требуется назначение ПОАК (эти пациенты не льготники и покупают за свои деньги) ?
+2024-07-16 15:48:04,044 - INFO - Added QuestionConfiguration: QuestionId=132, HeaderId=30
+2024-07-16 15:48:04,210 - INFO - Added Question: Какому количеству пациентов удалось назначить Транидаб?
+2024-07-16 15:48:04,342 - INFO - Added QuestionConfiguration: QuestionId=133, HeaderId=30
+2024-07-16 15:58:53,896 - INFO - Added Questionnaire: Ортопед-травматолог
+2024-07-16 15:58:54,031 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=13, TaskTypeId=4, Order=0
+2024-07-16 15:58:54,162 - INFO - Added QuestionnaireToTaskType: QuestionnaireId=13, TaskTypeId=30, Order=1
+2024-07-16 15:58:54,289 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=13, SpecializationId=5462, TaskTypeId=30
+2024-07-16 15:58:54,421 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=13, SpecializationId=7109, TaskTypeId=30
+2024-07-16 15:58:54,667 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=13, SpecializationId=6921, TaskTypeId=30
+2024-07-16 15:58:54,820 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=13, SpecializationId=5164, TaskTypeId=30
+2024-07-16 15:58:54,963 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=13, SpecializationId=6968, TaskTypeId=30
+2024-07-16 15:58:55,075 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=13, SpecializationId=6780, TaskTypeId=30
+2024-07-16 15:58:55,193 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=13, SpecializationId=5462, TaskTypeId=31
+2024-07-16 15:58:55,312 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=13, SpecializationId=7109, TaskTypeId=31
+2024-07-16 15:58:55,431 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=13, SpecializationId=6921, TaskTypeId=31
+2024-07-16 15:58:55,562 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=13, SpecializationId=5164, TaskTypeId=31
+2024-07-16 15:58:55,683 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=13, SpecializationId=6968, TaskTypeId=31
+2024-07-16 15:58:55,796 - INFO - Added QuestionnaireToTaskTypeSpecialization: QuestionnaireId=13, SpecializationId=6780, TaskTypeId=31
+2024-07-16 15:58:55,935 - INFO - Added Question: Скольким пациентам требуется назначение ПОАК (эти пациенты не льготники и покупают за свои деньги) ?
+2024-07-16 15:58:56,068 - INFO - Added QuestionConfiguration: QuestionId=134, HeaderId=30
+2024-07-16 15:58:56,230 - INFO - Added Question: Какому количеству пациентов удалось назначить Транидаб?
+2024-07-16 15:58:56,371 - INFO - Added QuestionConfiguration: QuestionId=135, HeaderId=30
